@@ -1916,6 +1916,31 @@ sub { line-height: 0; font-size: smaller; vertical-align: sub; }
 
 #rec1167621701 .t390__descr { font-family: TildaSans; }
 
+#rec1167621701 .t-popup {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#rec1167621701 .t-popup__container {
+  position: relative;
+  top: 0;
+  left: auto;
+  right: auto;
+  margin: 0 auto;
+  transform: none;
+}
+
+#rec1167621701 .t-popup_show .t-popup__container {
+  transform: none;
+}
+
+@media screen and (max-width: 640px) {
+  #rec1167621701 .t-popup {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 @charset "utf-8";
 
 .t-rec#rec1167621666 { overflow: visible; }
